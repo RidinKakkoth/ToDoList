@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bree+Serif&family=Fjalla+One&family=Noto+Sans:wght@900&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
@@ -6,9 +11,10 @@
 body {
   background-image: url(https://img.freepik.com/free-vector/flat-design-meal-planner-design_23-2149324899.jpg?w=1060&t=st=1685857438~exp=1685858038~hmac=8a213605f96cc7900fe687240977ea031123f33823f2523878329b03fb94f1d5);
   background-size: cover;
-  /* background-position: center; */
   background-repeat: no-repeat;
 }
+
+
 
 
 .app {
@@ -101,6 +107,7 @@ h2 {
   border-radius: 6px;
   padding: 20px;
   background-color: #f0af95;
+  font-family: 'Bree Serif', serif;
 }
 
 .card img {
@@ -122,6 +129,8 @@ h2 {
   border-radius: 6px;
   padding: 20px;
   background-color: #387777;
+  font-family: "Pacifico", cursive;
+
 }
 
 .cardhead img {
