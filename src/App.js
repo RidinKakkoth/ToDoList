@@ -1,12 +1,16 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef,useEffect } from 'react';
 import './App.css';
 
 function App() {
   const [toDos, setToDos] = useState([]);
   const toDoRef = useRef(null);
 
-  const addTodo = () => {
+  useEffect(()=>{
     toDoRef.current.focus()
+  })
+
+  const addTodo = () => {
+   
     const newTodo = { text: toDoRef.current.value, status: false };
     setToDos([...toDos, newTodo]);
     toDoRef.current.value = "";
